@@ -17,8 +17,8 @@ public class SimpleTest {
         checkSumStep(5, 4, 9);
     }
 
-    @Test
-    public void simpleFalseTest() {
-        checkSumStep(2,2,5);
-    }
+//    @Test
+//    public void simpleFalseTest() {
+//        checkSumStep(2,2,5);
+//    }
 }
