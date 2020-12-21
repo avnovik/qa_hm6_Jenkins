@@ -8,7 +8,7 @@ public class SimpleTest {
 
     @Step
     public static void checkSumStep(int num1, int num2, int expectedSum) {
-        assertEquals(num1 + num2 ,expectedSum);
+        assertEquals(num1 + num2 ,expectedSum, "Варгинг!!!");
     }
 
     @Test
